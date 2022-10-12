@@ -1,0 +1,9 @@
+html{
+    background: url("img/background.jpg") no-repeat center fixed ;
+    padding: 10px 200px 10px 200px;
+}
+
+body{
+    padding: 10px 30px 10px 39px;
+    background-color:rgba(225, 225, 255, 0.7) ;
+}
