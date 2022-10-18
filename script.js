@@ -19,13 +19,13 @@ function ballClicked(){
         answerEl.innerHTML = "100% Yes!"
     } else if (phrase ===""){
         answerEl.innerHTML = "Please ask a question."
-    } else if (randNum <=0.3) {
+    } else if (randNum <=0.2) {
         answerEl.innerHTML = "Concentrate and ask again"
-    } else if (randNum <=0.6) {
+    } else if (randNum <=0.4) {
         answerEl.innerHTML = "Not looking good"
-    } else if (randNum <=0.7) {
+    } else if (randNum <=0.6) {
         answerEl.innerHTML = "Outlook not so good"
-    } else if (randNum <=0.9) {
+    } else if (randNum <=0.8) {
         answerEl.innerHTML = "Without a doubt"
     } else if (randNum<=1){
         answerEl.innerHTML = "As I see it, yes"
